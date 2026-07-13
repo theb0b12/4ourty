@@ -1,0 +1,424 @@
+units:
+  kx: u
+  ky: u
+  px: kx + 2
+  py: ky + 2
+  
+  w: 18
+  h: 17
+
+  $default_width: u
+  $default_height: u
+
+  starting_x: 100
+  starting_y: -120
+
+  # Default M2 Screws
+  screwSize: 1
+  standoffSize: 2.5
+
+points:
+  zones:
+    top:
+      anchor:
+        shift: [starting_x, starting_y]
+      columns:
+        esc:
+          key:
+            width: 1kx
+            shift: [0.5kx, 0ky]
+            column_net: P0
+            row_net: P15
+        q:
+          key:
+            spread: 1.5kx
+            column_net: P1
+            row_net: P15
+            
+        w:
+          key:
+            column_net: P2
+            row_net: P15
+        e:
+          key:
+            column_net: P3
+            row_net: P15
+        r:
+          key:
+            column_net: P4
+            row_net: P15
+        t:
+          key:
+            column_net: P5
+            row_net: P15
+        y:
+          key:
+            column_net: P6
+            row_net: P15
+        u:
+          key:
+            column_net: P7
+            row_net: P15
+        i:
+          key:
+            column_net: P8
+            row_net: P15
+        o:
+          key:
+            column_net: P9
+            row_net: P15
+        p:
+          key:
+            column_net: P10
+            row_net: P15
+        backspace:
+          key:
+            width: 1.75kx
+            shift: [0.38kx, 0ky]
+            column_net: P14
+            row_net: P15
+            tags: key1.75u
+        
+    middle:
+      anchor:
+        shift: [starting_x, starting_y-ky]
+      columns:
+        tab:
+          key:
+            width: 1.25kx
+            shift: [0.625kx, 0ky]
+            column_net: P0
+            row_net: P16
+            tags: key1.25u
+        a:
+          key:
+            spread: 1.75kx
+            column_net: P1
+            row_net: P16
+        s:
+          key:
+            column_net: P2
+            row_net: P16
+        d:
+          key:
+           column_net: P3
+           row_net: P16
+        f:
+          key:
+            column_net: P4
+            row_net: P16
+        g:
+          key:
+            column_net: P5
+            row_net: P16
+        h:
+          key:
+            column_net: P6
+            row_net: P16
+        j:
+          key:
+            column_net: P7
+            row_net: P16
+        k:
+          key:
+            column_net: P8
+            row_net: P16
+        l:
+          key:
+            column_net: P9
+            row_net: P16
+        semicolon:
+          key:
+            column_net: P10
+            row_net: P16
+        quotes:
+          key:
+            width: 1.5kx
+            shift: [0.25kx, 0ky]
+            column_net: P14
+            row_net: P16
+            tags: key1.5u
+
+    bottom:
+      anchor:
+        shift: [starting_x, starting_y-2ky]
+      columns:
+        shift:
+          key:
+            width: 1.75kx
+            shift: [0.875kx, 0ky]
+            column_net: P0
+            row_net: P17
+            tags: key1.75u
+        z:
+          key:
+            spread: 2.25kx
+            column_net: P1
+            row_net: P17
+        x:
+          key:
+            column_net: P2
+            row_net: P17
+        c:
+          key:
+            column_net: P3
+            row_net: P17
+        v:
+          key:
+            column_net: P4
+            row_net: P17
+        b:
+          key:
+            column_net: P5
+            row_net: P17
+        n:
+          key:
+            column_net: P6
+            row_net: P17
+        m:
+          key:
+            column_net: P7
+            row_net: P17
+        comma:
+          key:
+            column_net: P8
+            row_net: P17
+        period:
+          key:
+            column_net: P9
+            row_net: P17
+        questionmark:
+          key:
+            column_net: P10
+            row_net: P17
+        something:
+          key:
+            column_net: P14
+            row_net: P17
+        
+
+    thumbs:
+      anchor:
+        shift: [starting_x, starting_y-3ky]
+      columns:
+        ctrl:
+          key:
+            width: 1.25kx
+            shift: [0.625kx, 0ky]
+            column_net: P0
+            row_net: P18
+            tags: key1.25u
+        2nd:
+          key:
+            spread: 1.5kx
+            width: 1.5kx
+            shift: [0.5kx, 0ky]
+            column_net: P1
+            row_net: P18
+            tags: key1.5u
+        alt:
+          key:
+            spread: 1.25kx
+            width: 1.25kx
+            shift: [0.62kx, 0ky]
+            column_net: P2
+            row_net: P18
+            tags: key1.25u
+        space1:
+          key:
+            spread: 1.75kx
+            width: 2.25kx
+            shift: [0.62kx, 0ky]
+            column_net: P3
+            row_net: P18
+            tags: key2.25u
+        space2:
+          key:
+            spread: 2.13kx
+            width: 2kx
+            shift: [0.62kx, 0ky]
+            column_net: P5
+            row_net: P18
+            tags: key2u
+        fn:
+          key:
+            spread: 1.75kx
+            width: 1.5kx
+            shift: [0.62kx, 0ky]
+            column_net: P7
+            row_net: P18
+            tags: key1.5u
+        arrow1:
+          key:
+            spread: 1.25kx
+            shift: [0.62kx, 0ky]
+            column_net: P9
+            row_net: P18
+        arrow2:
+          key:
+            spread: 1kx
+            shift: [0.62kx, 0ky]
+            column_net: P10
+            row_net: P18
+        arrow3:
+          key:
+            spread: 1kx
+            shift: [0.62kx, 0ky]
+            column_net: P14
+            row_net: P18
+
+outlines:
+  _keys:
+    - what: rectangle
+      where: true
+      size: [kx-0.5,ky-0.5]
+    - what: rectangle
+      where: [key2u]
+      size: [(kx*2)-0.5, ky-0.5]
+    - what: rectangle
+      where: [key1.5u]
+      size: [(kx*1.5)-0.5, ky-0.5]
+    - what: rectangle
+      where: [key2.75u]
+      size: [(kx*2.75)-0.5, ky-0.5]
+    - what: rectangle
+      where: [key2.25u]
+      size: [(kx*2.25)-0.5, ky-0.5]
+    - what: rectangle
+      where: [key1.75u]
+      size: [(kx*1.75)-0.5, ky-0.5]
+    - what: rectangle
+      where: [key1.25u]
+      size: [(kx*1.25)-0.5, ky-0.5]
+    
+      fillet: 1.5
+      
+  keys:
+    - what: rectangle
+      where: true
+      size: [kx-0.5,ky-0.5]
+  _outline:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: top_esc
+          shift: [-0.55px, 0.55py]
+        - ref: top_backspace
+          shift: [0.9px, 0.55py]
+        - ref: top_backspace
+          shift: [0.9px, -3.25py]
+        - ref: top_esc
+          shift: [-0.55px, -3.25py]
+
+      fillet: 2
+
+
+  combo:
+    - name: _keys
+    - name: _outline
+      operation: stack
+
+pcbs:
+  40%:
+    template: kicad8
+
+    outlines:
+      main:
+        outline: _outline
+
+    footprints:
+
+      mx_hotswap:
+        what: ceoloide/switch_mx
+        where: true
+        params:
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+        adjust:
+          rotate: 180
+      
+      diode:
+        what: smd
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -9]
+
+      nicenano:
+        what: ceoloide/mcu_nice_nano
+        where:
+          ref: top_esc
+          # this is an estimate... the real one is in the pcb
+          shift: [0.25kx, -0.15ky]
+        params:
+          reverse_mount: true
+          side: B
+        adjust:
+          rotate: 90
+      
+      battery-jst:
+        what: ceoloide/battery_connector_jst_ph_2
+        where: top_q
+        params:
+          side: B
+        adjust:
+          shift: [0.5kx, -.45ky]
+
+      power-switch:
+        what: ceoloide/power_switch_smd_side
+        where: top_q
+        params:
+          from: BAT_P
+          to: RAW
+          side: B
+        adjust:
+          shift: [0kx, 0.5ky]
+          rotate: 90
+
+      reset-switch:
+        what: ceoloide/reset_switch_smd_side
+        where: top_q
+        params:
+          side: B
+        adjust:
+          shift: [0.5kx, 0.5ky]
+      
+      screwhole1:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: [top_q]
+          shift: [1kx, 0.3ky]
+      screwhole2:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: [top_backspace]
+          shift: [0kx, 0.3ky]
+      screwhole3:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: [thumbs_ctrl]
+          shift: [0kx, 0.3ky]
+      screwhole4:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: [thumbs_arrow3]
+          shift: [0kx, 0.3ky]
+      screwhole5:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: [bottom_b]
+          shift: [0kx, 0.3ky]
+      
+      routes_fp_962:
+        what: router
+        where: true
+        params:
+          locked: false
+          routes:
+            - "B(-1.65,-9)(0.395,-6.955)(3.967,-6.955)(5.842,-5.08)"
+            
+        adjust:
+          shift: [-4,-14.25]
