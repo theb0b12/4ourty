@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.9-rc1"
     },
-    "CreationDate": "2026-07-19T00:15:23-06:00"
+    "CreationDate": "2026-07-19T00:24:35-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "40%",
-      "GUID": "3430252e-6b69-4636-9164-5f7063625858",
+      "Name": "test",
+      "GUID": "74657374-2e6b-4696-9361-645f70636258",
       "Revision": "v1.0.0"
     },
     "Size": {
-      "X": 246.82,
-      "Y": 79.95
+      "X": 121.1557,
+      "Y": 81.2687
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -32,47 +32,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "40%-F_Cu.gbr",
+      "Path": "test-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "40%-B_Cu.gbr",
+      "Path": "test-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "40%-F_Paste.gbr",
+      "Path": "test-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "40%-B_Paste.gbr",
+      "Path": "test-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "40%-F_Silkscreen.gbr",
+      "Path": "test-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "40%-B_Silkscreen.gbr",
+      "Path": "test-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "40%-F_Mask.gbr",
+      "Path": "test-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "40%-B_Mask.gbr",
+      "Path": "test-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "40%-Edge_Cuts.gbr",
+      "Path": "test-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
