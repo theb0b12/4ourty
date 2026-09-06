@@ -233,23 +233,23 @@ points:
             tags: key2.75u
         space2:
           key:
-            spread: 2.25kx
-            width: 1.75kx
+            spread: 2.5kx
+            width: 2.25kx
             shift: [0.62kx, 0ky]
-            column_net: P5
+            column_net: P6
             row_net: P18
-            tags: key1.75u
+            tags: key2.25u
         fn:
           key:
             spread: 1.625kx
-            width: 1.5kx
+            width: 1kx
             shift: [0.62kx, 0ky]
-            column_net: P7
+            column_net: P8
             row_net: P18
-            tags: key1.5u
+            tags: key1u
         arrow1:
           key:
-            spread: 1.25kx
+            spread: 1kx
             shift: [0.62kx, 0ky]
             column_net: P9
             row_net: P18
@@ -291,7 +291,7 @@ outlines:
       size: [(kx*1.25)-0.5, ky-0.5]
     
       fillet: 1.5
-
+  
   keys:
     - what: rectangle
       where: true
@@ -345,7 +345,7 @@ outlines:
 
 
 pcbs:
-  40%:
+  40%v2:
     template: kicad8
 
     outlines:
@@ -365,7 +365,7 @@ pcbs:
           rotate: 180
       
       diode:
-        what: ceoloide/diode_tht_sod123
+        what: smd
         where: true
         params:
           from: "{{colrow}}"
