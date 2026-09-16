@@ -12,11 +12,14 @@ INFO:
 - 12.75u 40% keyb
   
 TODO:
-- build
-- add correct images
+- [ ] update the case with
+    - [ ] pcb angle, low profile mount mcu
+- [ ] build said case
+    - [ ] add foam and all that
+- [ ] take photos and upload them
+
 
 ## below is wrong
+The layout
+<img src="image/keyb-ergogen.png" width="800">
 
-<img src="image/keyb-ergogen.jpg" width="800">
-<img src="image/keyb-pcb.jpg" width="800">
-<img src="image/keyb-layout.jpg" width="800">
