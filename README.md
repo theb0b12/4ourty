@@ -15,8 +15,7 @@ TODO:
 - [ ] update the case with
     - [ ] pcb angle, low profile mount mcu
 - [ ] build said case
-    - [ ] add foam and all that
-- [ ] take photos and upload them
+
 
 
 ## below is wrong
